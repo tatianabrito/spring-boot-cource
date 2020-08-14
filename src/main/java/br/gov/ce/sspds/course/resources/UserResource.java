@@ -10,11 +10,10 @@ import br.gov.ce.sspds.course.entities.User;
 @RestController
 @RequestMapping(value= "/users")
 public class UserResource {
-	
+
 	@GetMapping
 	public ResponseEntity<User> findAll() {
 		User u = new User(1L,"murilo","murilo@gmail.com","999","12345");
-		
 		return ResponseEntity.ok().body(u);
 	}
 }
