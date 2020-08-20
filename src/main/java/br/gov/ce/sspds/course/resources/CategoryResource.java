@@ -13,7 +13,7 @@ import br.gov.ce.sspds.course.entities.Category;
 import br.gov.ce.sspds.course.services.CategoryService;
 
 @RestController
-@RequestMapping(value= "/categorys")
+@RequestMapping(value= "/categories")
 public class CategoryResource {
 
 	@Autowired
